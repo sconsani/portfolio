@@ -1,9 +1,11 @@
-/*BASE STYLES*/
+BASE STYLES*/
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #2b2b2b;
 }
+
+/*GRIDS*/
 
 .full-width{
 width: 1200px;
@@ -24,3 +26,47 @@ overflow: auto;
 	float: left;
 
 }
+
+/*ABOUT*/
+
+#about .full-width{
+	padding: 80px 0;
+}
+
+#about h2 {
+	font-family: Lora ;
+	font-size: 36px;
+	padding-left: 50px;
+
+}
+
+#about p {
+	font-family: Source Sans Pro;
+	font-size: 21px ;
+	color: #7F7F7F;
+	line-height: 40px ;
+	padding-left: 50px ;
+	padding-right: 50px;
+}
+
+/*WORK
+
+*/
+
+#work .full-width{
+	background-color: #f9ceb7 ;
+	text-align: center;
+	padding: 115px 0;
+}
+
+#work img {
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
