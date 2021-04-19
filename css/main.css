@@ -34,6 +34,7 @@ overflow: auto;
 header {
 	height: 800px;
 	background: url('../me-nutella.jpeg') ;
+	background-color: blue;
 	background-size: cover;
 	background-position: center ;
 }
