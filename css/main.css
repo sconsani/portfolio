@@ -267,6 +267,7 @@ a .project-item {
 	font-size: 29px;
 	line-height: 44px ;
 	margin: 40px 0 0 0 ;
+	text-align: center;
 
 }
 
@@ -280,6 +281,7 @@ a .project-item {
 
 #contact ul {
 	list-style: none;
+	text-align: center;
 }
 
 #contact ul li {
@@ -287,9 +289,20 @@ a .project-item {
 }
 
 #contact ul img {
-	padding-right: 48px;
+	padding-right: 20px;
 }
 
+
+#contact .social-icon {
+	padding-right: 30px;
+	height: 40px;
+	width: auto;
+}
+
+#contact .social-icon:hover {
+	height: 50px;
+	width: auto;
+}
 
 
 
