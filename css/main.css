@@ -108,13 +108,14 @@ header h2 span {
 */
 
 #work .full-width{
-	background-color: #5fc3e4;
+	background-color: #709c74;
 	text-align: center;
 	padding: 115px 0;
 }
 
 #work img {
 	padding-bottom: 30px;
+	height: 100px;
 }
 
 #work h3 {
@@ -168,6 +169,12 @@ h4{
  	width: 364px;
  	margin-top: 5px;
 
+ }
+
+ .project-item {
+ 	color: black !important;
+	text-decoration: none;
+	width: 328px;
  }
 
 .project-item:link{
