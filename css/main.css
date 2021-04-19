@@ -233,6 +233,18 @@ a .project-item {
 	padding: 110px 0;
 }
 
+#contact .half-width p{
+	text-align: center;
+	margin-top: 80px;
+	
+}
+
+#contact .half-width p:hover{
+	color: #5fc3e4;
+	text-align: center;
+
+}
+
 
 #contact-img {
 	margin-left: 25px;
@@ -266,7 +278,8 @@ a .project-item {
 	font-weight: bold;
 	font-size: 29px;
 	line-height: 44px ;
-	margin: 40px 0 0 0 ;
+	margin: 0px;
+	padding: 0px;
 	text-align: center;
 
 }
@@ -282,6 +295,7 @@ a .project-item {
 #contact ul {
 	list-style: none;
 	text-align: center;
+	padding: 0px;
 }
 
 #contact ul li {
@@ -295,13 +309,14 @@ a .project-item {
 
 #contact .social-icon {
 	padding-right: 30px;
+	transition: transform .2s;
 	height: 40px;
 	width: auto;
+	margin: 0 auto;
 }
 
 #contact .social-icon:hover {
-	height: 50px;
-	width: auto;
+	transform: scale(1.5);
 }
 
 
