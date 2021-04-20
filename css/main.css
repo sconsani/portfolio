@@ -119,7 +119,7 @@ header h2 span {
 }
 
 #work h3 {
-	font-family: Source Sans Pro;
+	font-family: Lora;
 	font-size: 24px;
 	line-height: 32px ;
 	width: 190px;
@@ -127,7 +127,7 @@ header h2 span {
 }
 
 #work p {
-	font-family: Lora;
+	font-family: Source Sans Pro;
 	font-size:18px;
 	line-height: 30px;
 	padding: 0 50px;
@@ -201,7 +201,8 @@ h4{
 
 .project-title {
 	font-size: 25px;
-	font-weight: bold;
+	font-family: Lora;
+	/*font-weight: bold;*/
 	margin-bottom: 5px;
 }
 
