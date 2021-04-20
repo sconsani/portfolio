@@ -32,8 +32,8 @@ overflow: auto;
 						/*HEADER*/
 
 header {
-	height: 800px;
-	background: url('../img/full-background.png') ;
+	height: 650px;
+	background: url('../img/full-background-2.png') ;
 	background-color: blue;
 	background-size: cover;
 	background-position: center ;
@@ -63,6 +63,12 @@ nav ul li a {
 	font-size: 18px ;
 	color: white;
 	padding-left: 60px;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: #2b2b2b;
+
 }
 
 header h2 {
@@ -77,10 +83,54 @@ header h2 {
 	padding: 20px 0 20px 25px;
 }
 
-header h2 span {
+header h2 span .hi{
 	color: #2b2b2b;
 
 }
+
+
+
+.c:hover{
+	color: red;
+}
+
+.c:active{
+	color: red;
+}
+
+
+
+.o:hover{
+	color: orange;
+
+}
+
+.l:hover{
+	color: yellow;
+
+}
+
+.oo:hover{
+	color: green;
+
+}
+
+.r:hover{
+	color: blue;
+
+}
+
+.f:hover{
+	color: purple;
+
+}
+
+.u:hover{
+	color: pink;
+
+}
+
+
 						/*ABOUT*/
 
 #about .full-width{
