@@ -94,15 +94,16 @@ nav ul li a:hover {
 
 #projects .full-width h2{
 	font-family: Lora;
-    font-size: 36px;
+    font-size: 45px;
 	padding: 0;
 	margin: 0;
 	text-align: center;
+	color: #c49075 ;
 
 }
 
  .projects-about {
-  	font-size: 25px;
+  	font-size: 23px;
   	font-family: Source Sans Pro;
   	text-align: center;
   	margin-top: 10px;
@@ -122,6 +123,7 @@ h4{
  	color: black !important;
 	text-decoration: none;
 	width: 328px;
+
  }
 
 .project-item:link{

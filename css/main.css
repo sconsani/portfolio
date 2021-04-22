@@ -32,7 +32,7 @@ overflow: auto;
 						/*HEADER*/
 
 header {
-	height: 650px;
+	height: 600px;
 	background: url('../img/full-background-2.png') ;
 	background-color: blue;
 	background-size: cover;
@@ -134,7 +134,7 @@ header h2 span .hi{
 						/*ABOUT*/
 
 #about .full-width{
-	padding: 80px 0;
+	padding: 70px 0;
 }
 
 #about h2 {
@@ -213,6 +213,17 @@ header h2 span .hi{
   	font-family: Source Sans Pro;
   }
 
+  #projects .full-width {
+  	padding-top: 100px;
+  	padding-bottom: 100px;
+  	text-align: center;
+  }
+
+  #projects .full-width h2 a {
+  	text-decoration: none;
+  	color:#c49075 ;
+  }
+
 h4{
  	font-size: 20px;
  	font-family: Source Sans Pro;
@@ -222,64 +233,7 @@ h4{
 
  }
 
- .project-item {
- 	color: black !important;
-	text-decoration: none;
-	width: 328px;
- }
-
-.project-item:link{
-	color: black !important;
-	text-decoration: none;
-	width: 328px;
-}
-
-.project-item :visited{
-	color: black !important;
-	text-decoration: none;
-}
-
-.project-item :hover{
-	color: black !important;
-	text-decoration: none;
-}
-
-.project-item :active{
-	color: black !important;
-	text-decoration: none;
-}
-
-.project-title {
-	font-size: 25px;
-	font-family: Lora;
-	/*font-weight: bold;*/
-	margin-bottom: 5px;
-}
-
-a .project-item {
-	border: 1px solid black;
-	padding: 20px;
-	font-size: 30px;
-	text-align: justify;
-}
-
-.project{
-	position: relative;
-	border: 2px solid black;
-	padding: 20px;
-	padding-top: 40px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background position: center;
-	height: 300px;
-	width: 300px;
-}
-
-
-
-
-
-
+ 
 						/*CONTACT*/
 
 #contact {
