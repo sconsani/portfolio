@@ -1,0 +1,236 @@
+/*BASE STYLES*/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+}
+
+							/*GRIDS*/
+
+.full-width{
+width: 1200px;
+margin: 0 auto;
+overflow: auto;
+
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+
+
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+
+
+}
+
+header {
+	height: 200px;
+	background: url('../img/full-background-2.png') ;
+	background-color: blue;
+	background-size: cover;
+	background-position: center ;
+}
+
+header h1 {
+	font-family: Lora;
+	font-size: 30px ;
+	font-weight: normal;
+	color: white;
+	padding: 65px 0 65px 25px;
+}
+
+
+header a {
+	text-decoration: none;
+}
+
+nav {
+	float: right;
+	padding: 75px 25px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px ;
+	color: white;
+	padding-left: 60px;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: #2b2b2b;
+
+}
+
+						/*PROJECTS*/
+
+#projects {
+	margin-bottom: 100px;
+}
+
+
+#projects .full-width .third-width{
+	background-color: white;
+	padding-top: 15px;
+}
+
+#projects .full-width {
+	padding: 50px 0;
+
+	/*text-align: center;*/
+
+}
+
+
+#projects .full-width h2{
+	font-family: Lora;
+    font-size: 36px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+}
+
+ .projects-about {
+  	font-size: 25px;
+  	font-family: Source Sans Pro;
+  	text-align: center;
+  	margin-top: 10px;
+  	margin-bottom: 40px;
+  }
+
+h4{
+ 	font-size: 20px;
+ 	font-family: Source Sans Pro;
+ 	font-weight: normal;
+ 	width: 364px;
+ 	margin-top: 5px;
+
+ }
+
+ .project-item {
+ 	color: black !important;
+	text-decoration: none;
+	width: 328px;
+ }
+
+.project-item:link{
+	color: black !important;
+	text-decoration: none;
+	width: 328px;
+}
+
+.project-item :visited{
+	color: black !important;
+	text-decoration: none;
+}
+
+.project-item :hover{
+	color: black !important;
+	text-decoration: none;
+}
+
+.project-item :active{
+	color: black !important;
+	text-decoration: none;
+}
+
+.project-title {
+	font-size: 25px;
+	font-family: Lora;
+	/*font-weight: bold;*/
+	margin-bottom: 5px;
+}
+
+a .project-item {
+	border: 1px solid black;
+	padding: 20px;
+	font-size: 30px;
+	text-align: justify;
+}
+
+.project{
+	position: relative;
+	border: 2px solid black;
+	padding: 20px;
+	padding-top: 40px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background position: center;
+	height: 300px;
+	width: 300px;
+}
+
+
+#contact {
+	background-color: #EBEBEB;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+	padding-left: 115px;
+}
+
+#contact #envelope {
+	padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+	font-family: Lora ;
+	font-size: 36px;
+	line-height: 44px;
+
+}
+
+
+#contact a {
+	text-decoration: none;
+	color: #c49075;
+	font-weight: bold;
+	font-size: 20px ;
+}
+
+
+#contact ul {
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul img {
+	padding-right: 20px;
+}
+
+
+#contact .social-icon {
+	padding-right: 30px;
+	transition: transform .2s;
+	height: 40px;
+	width: auto;
+	margin: 0 auto;
+}
+
+#contact .social-icon:hover {
+	transform: scale(1.5);
+}
+
+
+
+
